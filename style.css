@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+#img1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.heroText {
+    font-size: 2rem;
+}
+
+.resumeBtn {
+    transition: 1s;
+}
+
+.resumeBtn:hover {
+    background-color: black;
+    color: white;
+}
+
+.aboutText {
+    font-size: 2rem;
+    text-align: justify;
+}
+
+.eduIcon {
+    font-size: 4rem;
+}
+
+.eduDiv {
+    transition: 1s;
+}
+
+.eduDiv:hover {
+    background-color: black;
+    color: white;
+}
+
+.projectImg {
+    width: 550px;
+    height: 350px;
+}
+
+
+@media screen and (max-width:991px){
+    .projectImg {
+    width: 450px;
+    height: 300px;
+}
+}
